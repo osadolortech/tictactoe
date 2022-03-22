@@ -15,7 +15,7 @@ body{
 }
 
 .Tic_container{
-    width: 300px;
+   
     height: 150px;
     display: grid;
     grid-template-columns: auto auto auto;
@@ -36,8 +36,9 @@ body{
 .all_div{
     align-items: center;
     padding: 20px;
-    margin-left: 550px;
-
+    max-width: 300px;
+    margin: auto;
+    width: 100%;
 }
 
 .option{
@@ -51,3 +52,4 @@ body{
     font-size: 20px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
+
