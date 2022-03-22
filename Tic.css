@@ -42,6 +42,8 @@ body{
 }
 
 .option{
+    text-transform: uppercase;
+    text-decoration: solid;
     width: 200px;
     font-size: 20px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
