@@ -6,12 +6,11 @@ let resets = document.querySelector(".reset")
 
 
 
-let curret_player = select_side.addEventListener("click", function(){
 
     curret_player = player_x.innerText 
+    
 
 
-})
     
    
 
@@ -58,11 +57,17 @@ function checkDraw(){
 
 boxes.forEach(cell =>{
     cell.addEventListener('click',function(){
+        console.log("hello")
 
-        if(cell.innerText.trim() != ""){
+        if(cell.innerText.trim() !== ""){
             return 
         }
+        
+
         cell.innerText = curret_player
+
+           
+
 
         if(!checkwin()){
             checkDraw()
