@@ -70,7 +70,8 @@ boxes.forEach(cell =>{
 
 
         if(!checkwin()){
-            checkDraw()
+           
+           checkDraw()
         }
 
         curret_player = curret_player === player_x.innerText ?  player_o.innerText :  player_x.innerText;
